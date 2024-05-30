@@ -21,13 +21,11 @@ export default {
         switchQuestion() {
             this.store.Counter++;
             this.clickedAnswer = null;
-            this.correctAnswer = null;
         },
 
         //ricarico la pagina al click.
         resetPartita() {
             window.location.reload();
-            this.correctAnswer = null;
         },
 
         checkAnswer(index, risposta) {
