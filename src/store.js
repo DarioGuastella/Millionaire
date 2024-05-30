@@ -7,19 +7,23 @@ export const store = reactive({
             Answers: [
                 {
                     Answer: "Luca",
-                    AnswerValidity: true
+                    AnswerValidity: true,
+                    isPending: false
                 },
                 {
                     Answer: "Paolo",
-                    AnswerValidity: false
+                    AnswerValidity: false,
+                    isPending: false
                 },
                 {
                     Answer: "Nikolas",
-                    AnswerValidity: false
+                    AnswerValidity: false,
+                    isPending: false
                 },
                 {
                     Answer: "Mauro",
-                    AnswerValidity: false
+                    AnswerValidity: false,
+                    isPending: false
                 }
             ]
         },
@@ -28,23 +32,28 @@ export const store = reactive({
             Answers: [
                 {
                     Answer: "Boolflix",
-                    AnswerValidity: false
+                    AnswerValidity: false,
+                    isPending: false
                 },
                 {
                     Answer: "Spotify",
-                    AnswerValidity: false
+                    AnswerValidity: false,
+                    isPending: false
                 },
                 {
                     Answer: "Boolzapp",
-                    AnswerValidity: false
+                    AnswerValidity: false,
+                    isPending: false
                 },
                 {
                     Answer: "Deliveboo",
-                    AnswerValidity: true
+                    AnswerValidity: true,
+                    isPending: false
                 }
             ]
         },
 
     ],
-    Counter: 0
+    Counter: 0,
+    endGameMsg: "Congratulazioni, hai finito il gioco!"
 });
